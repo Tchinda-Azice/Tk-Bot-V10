@@ -17,15 +17,15 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100079402482429"
+ "100089690164634"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "•Tk bot•",
-  "prefix": "@",
+  "nickNameBot": "Madara Uchiwa",
+  "prefix": "#",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
