@@ -15,6 +15,6 @@ onChat: async function({
     message,
     getLang
 }) {
-    if (event.body && event.body.toLowerCase() == "hi") return message.reply("hello Bro, how can i help you? Type -Tkgc✨ to join my supportgc🤲🚀🥺");
+    if (event.body && event.body.toLowerCase() == "hi") return message.reply("hello Bro, how can i help you? Type @Tkgc✨ to join my supportgc🤲🚀🥺");
 }
 };
