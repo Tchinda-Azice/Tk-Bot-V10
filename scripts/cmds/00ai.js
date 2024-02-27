@@ -3,7 +3,7 @@ const axios = require('axios');
 const Prefixes = [
   '/ai',
   'bot',
-  '-tk',
+  'ia',
   '+ai',
   'tk',
   'ai',
@@ -37,7 +37,7 @@ module.exports = {
 
 await message.reply("💬🧘🏾‍♂|veillez Patientez s'il-vous-plait...(𝙀́𝙙𝙞𝙩 𝙗𝙮 𝙏𝙠 𝙅𝙤𝙚𝙡 ㋡)");
 
-      const response = await axios.get(`https://sandipapi.onrender.com/gpt?prompt=${encodeURIComponent(prompt)}`);
+      const response = await axios.get(`https://sandipbaruwal.onrender.com/gpt?prompt=${encodeURIComponent(prompt)}`);
       const answer = response.data.answer;
 
  
