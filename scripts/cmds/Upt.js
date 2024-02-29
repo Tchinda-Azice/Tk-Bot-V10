@@ -22,11 +22,13 @@ aliases: ["upt"],
       const allThreads = await threadsData.getAll();
       const uptime = process.uptime();
       
+const days = 
+Math.floor(uptime / (3600 * 24));
       const hours = Math.floor(uptime / 3600);
       const minutes = Math.floor((uptime % 3600) / 60);
       const seconds = Math.floor(uptime % 60);
       
-      const uptimeString = `${hours}Hrs ${minutes}min ${seconds}sec`;
+      const uptimeString = `${days}days ${hours}𝑯𝒓𝒔 ${minutes}𝑴𝒊𝒏 ${seconds}𝑺𝒆𝒄`;
       
       api.sendMessage(`═════𝗨𝗽𝘁𝗶𝗺𝗲/𝗨𝗽𝘁═════
 
@@ -43,4 +45,4 @@ aliases: ["upt"],
       api.sendMessage("An error occurred while retrieving data.", event.threadID);
     }
   }
-}
+};
